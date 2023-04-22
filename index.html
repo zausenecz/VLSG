@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VLSG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <div id="main__ceiling" onclick="history.back();">
+            <div id="author">ZauSenecZ</div>
+            <div>VLSG</div>
+            <div></div>
+
+        </div>
+        <div id="main__title">
+            <div id="title__block__wrapper">
+                <div id="title__block">
+                    <div>
+                        <h1>Valorant Language Script Generator</h1>
+                        <h2>One-click solution to change the voices in the VALORANT</h2>
+
+                        <h2>Main language: <select id="lngMain" size="1">
+                                <option value="en">English</option>
+                            </select></h2>
+                        <h2>Voice language: <select class="category" id="lngVoice" size="1">
+                                <option value="jp">Japanese</option>
+                                <option value="ru">Russian</option>
+                            </select></h2>
+                        <div id="download" onclick="download()">Download</div>
+                    </div>
+                    <div id="main__img"><img src="assets/main.png"></div>
+                </div>
+                <a href="#instruction" id="scroll__down">Installation and setup instructions</a>
+            </div>
+        </div>
+    </main>
+    <div id="instruction">
+        <div class="step">
+            <div>
+                <p>Select the set of languages you want.</p>
+                <p>The options are currently supported:</p>
+                <ul>
+                    <li>English - Japanese</li>
+                    <li>English - Russian</li>
+                </ul>
+                <p>Configurations with a main language other than English do not work for some reason (the text is still in English).</p>
+
+            </div>
+            <div><img src="assets/1.png"></div>
+        </div>
+
+        <div class="step">
+            <div>
+                <p>Click the "Download" button and save the file anywhere.</p>
+                <p>Extract the downloaded archive.</p>
+
+            </div>
+            <div><img src="assets/2.png"></div>
+        </div>
+
+        <div class="step">
+            <div>
+                <p>Pay attention to where you have the game installed. If it is located on the default path on the C drive, you can skip this step. If the path is different, you need to specify it in the files.</p>
+                <p>To find out where the game is installed, open the <b>Riot Client > SETTINGS > VALORANT</b>. Note the line <b>INSTALL PATH</b>. It should match what is shown in the screenshot.</p>
+                <p>If not, open the downloaded folder, go to <i>files > VLSG</i>. Right click on the file Valorant.bat > edit. Change the paths to the following folders (check the screenshot).</p>
+
+            </div>
+            <div>
+                <img src="assets/3.png">
+                <br>
+                <br>
+                <img src="assets/4.png">
+            </div>
+        </div>
+
+        <div class="step">
+            <div>
+                <p>Execute <i>script.bat</i>, press any key to continue the installation.</p>
+                <p>The VLSG folder will appear in the <i>Documents</i> folder and the shortcut of the same name will appear in the applications list.</p>
+
+            </div>
+            <div><img src="assets/5.png"></div>
+        </div>
+
+        <div class="step">
+            <div>
+                <p>Open the Riot Client settings again and select the desired voice language.</p>
+                <p>Wait until the download is complete.</p>
+            </div>
+            <div><img src="assets/6.png"></div>
+        </div>
+
+        <div class="step">
+            <div>
+                <p>After that, use the created shortcut to start the game. The first click will launch Riot Client, then click on the shortcut again and the game itself will start.</p>
+                <p>To undo the changes, change the language to your usual language and run the game through the standard shortcut.</p>
+            </div>
+            <div><img src="assets/7.png"></div>
+        </div>
+        <a href="https://t.me/AunerMawrin">Contact for help or suggestions</a>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
