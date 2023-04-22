@@ -25,6 +25,8 @@ a {
 main {
     height: 100dvh;
     display: flex;
+    background: url(https://chroniclehq.com/images/bg-website-min.png);
+    background-size: cover;
 }
 
 #main__ceiling {
@@ -63,6 +65,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    background: #000;
 }
 
 #title__block {
