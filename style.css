@@ -66,6 +66,7 @@ main {
     flex-direction: column;
     gap: 1rem;
     background: #000;
+    z-index: 0;
 }
 
 #title__block {
@@ -93,6 +94,7 @@ main {
     inset: 0;
     background: linear-gradient(to right, #141414 0%, #0e0e0e 50%);
     z-index: -1;
+    border-radius: 1rem;
 }
 
 #title__block::after {
@@ -100,6 +102,7 @@ main {
     position: absolute;
     inset: 0;
     background: linear-gradient(to right, transparent 0%, #0e0e0e 50%);
+    border-radius: 1rem;
 }
 
 h1 {
