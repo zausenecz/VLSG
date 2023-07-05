@@ -31,13 +31,11 @@
                         <h1>Valorant Language Script Generator</h1>
                         <h2>One-click solution to change the voices in the VALORANT</h2>
 
-                        <h2>Main language: <select id="lngMain" size="1">
-                                <option value="en">English</option>
-                            </select></h2>
-                        <h2>Voice language: <select class="category" id="lngVoice" size="1">
-                                <option value="jp">Japanese (May, 2023)</option>
-                                <option value="ru">Russian (not updated)</option>
-                            </select></h2>
+                        <h2>
+                            Currently, only English is supported as the main language.
+                            <br>
+                            The voiceover language can be set to any of the available in the game.
+                        </h2>
                         <div id="download" onclick="download()">Download</div>
                     </div>
                     <div id="main__img"><img src="assets/main.png"></div>
@@ -49,13 +47,7 @@
     <div id="instruction">
         <div class="step">
             <div>
-                <p>Select the set of languages you want.</p>
-                <p>The options are currently supported:</p>
-                <ul>
-                    <li>English - Japanese</li>
-                    <li>English - Russian</li>
-                </ul>
-                <p>Configurations with a main language other than English do not work for some reason (the text is still in English).</p>
+                <p>Download files by clicking the download button</p>
 
             </div>
             <div><img src="assets/1.png"></div>
@@ -63,8 +55,8 @@
 
         <div class="step">
             <div>
-                <p>Click the "Download" button and save the file anywhere.</p>
-                <p>Extract the downloaded archive.</p>
+                <p>Unpack the archive and run the application with vlsg-update.exe</p>
+                <p><b>If additional packages need to be installed, accept and install using the links in the message</b></p>
 
             </div>
             <div><img src="assets/2.png"></div>
@@ -72,43 +64,32 @@
 
         <div class="step">
             <div>
-                <p>Pay attention to where you have the game installed. If it is located on the default path on the C drive, you can skip this step. If the path is different, you need to specify it in the files.</p>
-                <p>To find out where the game is installed, open the <b>Riot Client > SETTINGS > VALORANT</b>. Note the line <b>INSTALL PATH</b>. It should match what is shown in the screenshot.</p>
-                <p>If not, open the downloaded folder, go to <i>files > VLSG</i>. Right click on the file Valorant.bat > edit. Change the paths to the following folders (check the screenshot).</p>
+                <p>Follow the instructions in the app step by step</p>
+                <p>If an error occurs, check the correctness of the actions, if it does not help, please contact me in Telegram </p>
 
             </div>
             <div>
                 <img src="assets/3.png">
-                <br>
-                <br>
-                <img src="assets/4.png">
+
             </div>
         </div>
 
         <div class="step">
             <div>
-                <p>Execute <i>script.bat</i>, press any key to continue the installation.</p>
-                <p>The VLSG folder will appear in the <i>Documents</i> folder and the shortcut of the same name will appear in the applications list.</p>
-
+                <p>After installation, use the VLSG shortcut to start the game</p>
+                <p>The shortcut should automatically appear in the start menu</p>
             </div>
-            <div><img src="assets/5.png"></div>
+
+            <div><img src="assets/4.png"></div>
         </div>
 
         <div class="step">
             <div>
-                <p>Open the Riot Client settings again and select the desired voice language.</p>
-                <p>Wait until the download is complete.</p>
+                <p><b>If after updating the game, the game does not work properly or does not start at all, repeat the installation procedure to update the language packs</b></p>
             </div>
-            <div><img src="assets/6.png"></div>
+
         </div>
 
-        <div class="step">
-            <div>
-                <p>After that, use the created shortcut to start the game. The first click will launch Riot Client, then click on the shortcut again and the game itself will start.</p>
-                <p>To undo the changes, change the language to your usual language and run the game through the standard shortcut.</p>
-            </div>
-            <div><img src="assets/7.png"></div>
-        </div>
         <a href="https://t.me/AunerMawrin">Contact for help or suggestions</a>
     </div>
     <script src="index.js"></script>
