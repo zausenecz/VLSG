@@ -139,7 +139,10 @@ img {
 #main__img {
     display: grid;
     place-items: center;
+}
 
+#main__img img {
+    border: 0;
 }
 
 #instruction {
